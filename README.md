@@ -2,10 +2,10 @@
 利用 vue + bootstrap + swiper 搭建的简易官网
 
 #### 预览
-![image](https://github.com/vc0754/mua_website_pc/previews/01.jpg)
-![image](https://github.com/vc0754/mua_website_pc/previews/02.jpg)
-![image](https://github.com/vc0754/mua_website_pc/previews/03.jpg)
-![image](https://github.com/vc0754/mua_website_pc/previews/04.jpg)
+![image](https://github.com/vc0754/mua_website_pc/blob/master/previews/01.jpg)
+![image](https://github.com/vc0754/mua_website_pc/blob/master/previews/02.jpg)
+![image](https://github.com/vc0754/mua_website_pc/blob/master/previews/03.jpg)
+![image](https://github.com/vc0754/mua_website_pc/blob/master/previews/04.jpg)
 
 
 耗时统计：2020.9.22 15:00 开始，至 2020.9.23 12:00 完成，历时不足1天  
