@@ -1,24 +1,4 @@
-# website
+# MUA 官网 PC 版
+利用 vue + bootstrap + swiper 搭建的简易官网
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+耗时统计： 2020.9.22 15:00 开始，至 2020.9.23 12:00 完成，历时不足1天
