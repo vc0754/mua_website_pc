@@ -307,6 +307,20 @@ export default {
     next() {
       if (this.nav2_current === 9) return
       this.swiper2.slideTo(this.nav2_current + 1)
+    },
+    mousewheel() {
+      // chrome and ie
+      window.addEventListener('mousewheel', this.handleScroll, false)
+      // firefox
+      // window.addEventListener('DOMMouseScroll', this.handleScroll, false)
+    },
+    handleScroll(e) {
+      if (e.deltaY > 0) {
+        this.swiper.slideTo(1)
+      } else {
+        this.swiper.slideTo(0)
+      }
+      // console.log(e.deltaY)
     }
   },
   mounted(){
@@ -333,7 +347,8 @@ export default {
           _this.point = this.activeIndex % 2
         },
       },
-    })
+    });
+    this.mousewheel()
   }
 }
 </script>
